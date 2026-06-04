@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini-Miguel</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- nodeIntegration está ligado: expomos o IPC ao módulo do renderer. -->
+  <script>window.ipc = require('electron').ipcRenderer;</script>
+  <!-- O Three.js e os addons são carregados do node_modules local via import map. -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./node_modules/three/build/three.module.js",
+      "three/addons/": "./node_modules/three/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="badge" class="badge hidden"></div>
+  <canvas id="c"></canvas>
+  <script type="module" src="./renderer.js"></script>
+</body>
+</html>

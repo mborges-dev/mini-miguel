@@ -1,0 +1,32 @@
+# Node
+node_modules/
+avatar/desktop-app/node_modules/
+
+# Avatar build artifacts
+avatar/desktop-app/dist/
+avatar/desktop-app/out/
+
+# Personal config — fill locally after cloning
+config/MINI-MIGUEL.md
+config/dnd.conf
+
+# Runtime data — generated at runtime, personal
+data/chat-session.txt
+data/state.json
+data/avatar.pid
+data/avatar-window.json
+data/pending.log
+
+# Personal operational data — fill locally from the .example templates
+data/outreach.md
+data/decisions.md
+data/IDEAS.md
+
+# Large binary assets (3D model, swap with your own)
+avatar/model.glb
+
+# macOS
+.DS_Store
+
+# Claude local settings
+.claude/settings.local.json

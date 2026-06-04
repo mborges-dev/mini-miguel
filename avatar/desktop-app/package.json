@@ -1,0 +1,23 @@
+{
+  "name": "mini-miguel-avatar",
+  "version": "1.0.0",
+  "description": "Avatar desktop transparente e sempre-no-topo do Mini-Miguel (Electron + Three.js).",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.minimiguel.avatar",
+    "productName": "Mini-Miguel",
+    "mac": { "target": "dir" }
+  }
+}
