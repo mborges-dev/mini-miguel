@@ -124,4 +124,11 @@ The 3D model (`avatar/model.glb`) is not committed. Provide your own `.glb` file
 
 ---
 
+
+## Notice
+
+This repository is published as a **portfolio showcase** of my work. The code is **not licensed for reuse, redistribution, or modification.** You're welcome to read it, but it is not open source. If you'd like to discuss similar work, [get in touch](mailto:hello@miguelborges.dev).
+
+---
+
 Built by [Miguel Borges](https://miguelborges.dev) · [hello@miguelborges.dev](mailto:hello@miguelborges.dev)
